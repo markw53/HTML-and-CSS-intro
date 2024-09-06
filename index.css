@@ -1,0 +1,63 @@
+body {
+	font-family: Arial;
+	color: slategray;
+}
+
+#container {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+	font-size: 300%;	
+}
+
+h1, h2 {
+	font-family: Verdana;
+	color: orange;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+h3 {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+	width: 100%;
+	padding: 2px;
+	border: 5px solid #555;
+	border-radius: 50%;
+}
+
+ul {
+	color: blue;
+}
+
+ol {
+	color: blueviolet;
+}
+
+footer {
+	margin-top: 70px;
+	background-color: orange;
+	color: white;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px){
+    
+    #container {
+    width:90%;
+    }
+    
+    h1 {
+        font-size: 200%;
+    }
+}
+
